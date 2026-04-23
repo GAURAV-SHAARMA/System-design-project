@@ -2,7 +2,7 @@ USE online_insurance_system;
 
 INSERT INTO users (id, full_name, email, password, age, annual_income, risk_score) VALUES
 (1, 'System Admin', 'admin@insurance.com', '$2a$10$exampleHashedAdminPassword', 35, 1500000.00, 3),
-(2, 'Riya Sharma', 'user@insurance.com', '$2a$10$exampleHashedUserPassword', 29, 780000.00, 4);
+(2, 'Gaurav Sharma', 'user@insurance.com', '$2a$10$exampleHashedUserPassword', 29, 780000.00, 4);
 
 INSERT INTO user_roles (user_id, role) VALUES
 (1, 'ROLE_ADMIN'),

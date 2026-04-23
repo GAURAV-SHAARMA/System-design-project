@@ -42,7 +42,7 @@ public class DataSeeder {
             admin.setRoles(Set.of(Role.ROLE_ADMIN));
 
             User user = new User();
-            user.setFullName("Riya Sharma");
+            user.setFullName("Gaurav Sharma");
             user.setEmail("user@insurance.com");
             user.setPassword(passwordEncoder.encode("User@123"));
             user.setAge(29);
